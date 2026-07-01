@@ -1,90 +1,74 @@
-# ServiceNow Virtual Internship & Employee Onboarding Automation Project
+# 🚀 ServiceNow Virtual Internship & Employee Onboarding Automation
 
-## Overview
-
-This repository showcases the successful completion of the ServiceNow Virtual Internship Program conducted by ServiceNow University, AICTE, and SmartBridge, along with a practical implementation project developed using ServiceNow App Engine Studio.
-
-The repository demonstrates both conceptual learning and hands-on application development using native ServiceNow tools, including data modeling, form design, role-based security, and workflow automation.
+> Completed as part of the **ServiceNow Virtual Internship Program** by ServiceNow University, AICTE, and SmartBridge — with a hands-on implementation project built using **App Engine Studio**.
 
 ---
 
-## ServiceNow Virtual Internship Program
+## 📋 Table of Contents
 
-### Certificate of Completion
+- [Internship Program](#-internship-program)
+- [Project Overview](#-project-overview)
+- [Features](#-features)
+- [Application Architecture](#-application-architecture)
+- [Project Workflow](#-project-workflow)
+- [Technologies Used](#-technologies-used)
+- [Screenshots](#-screenshots)
+- [Author](#-author)
 
-Successfully completed the ServiceNow Virtual Internship Program.
+---
+
+## 🎓 Internship Program
+
+**Certificate of Completion** — ServiceNow Virtual Internship Program
 
 ### Key Learning Areas
 
-* ServiceNow Administration Fundamentals
-* Introduction to Agentic AI
-* Flow Designer
-* Automated Test Framework (ATF)
-* Reporting and Analytics
-* Certified System Administrator (CSA) Preparation
-* ServiceNow Platform Fundamentals
+| Area | Description |
+|---|---|
+| ServiceNow Administration | Platform fundamentals & navigation |
+| Agentic AI | Introduction to AI-driven automation |
+| Flow Designer | Building automated workflows |
+| ATF | Automated Test Framework |
+| Reporting & Analytics | Dashboards and data insights |
+| CSA Prep | Certified System Administrator readiness |
 
 ### Skills Acquired
 
-* ServiceNow Platform Navigation
-* Application Development using App Engine Studio
-* Table and Form Configuration
-* Flow Automation
-* Access Control and Security
-* Data Management
-* Workflow Design
+- ✅ ServiceNow Platform Navigation
+- ✅ Application Development using App Engine Studio
+- ✅ Table and Form Configuration
+- ✅ Flow Automation & Workflow Design
+- ✅ Role-Based Access Control & Security
+- ✅ Data Management
 
 ---
 
-## Project: Employee Onboarding Automation System
+## 📦 Project Overview
 
-### Project Objective
+**Project:** Employee Onboarding Automation System
 
-The objective of this project is to automate the employee onboarding process using native ServiceNow capabilities without custom scripting.
+The goal of this project is to **automate the employee onboarding process** using native ServiceNow capabilities — with zero custom scripting.
 
-The application allows users to submit onboarding requests, automatically triggers an approval workflow, and updates request status through Flow Designer automation.
-
----
-
-## Features
-
-### Custom Application
-
-* Built using ServiceNow App Engine Studio
-* Dedicated Employee Onboarding application
-
-### Data Management
-
-* Custom Employee Request table
-* Structured employee onboarding records
-
-### Form Design
-
-* Employee onboarding request form
-* User-friendly data entry experience
-
-### Security
-
-* Admin role
-* User role
-* Controlled table access permissions
-
-### Workflow Automation
-
-* Record creation trigger
-* Automated status update
-* Flow Designer implementation
-
-### Testing
-
-* Flow execution validated successfully
-* End-to-end workflow verification completed
+Users submit onboarding requests via a structured form. The system automatically triggers an approval workflow via Flow Designer and updates the request status without any manual intervention.
 
 ---
 
-## Application Architecture
+## ✨ Features
 
-```text
+| Feature | Details |
+|---|---|
+| 🏗️ Custom Application | Built entirely in App Engine Studio |
+| 🗄️ Data Management | Custom Employee Request table with structured fields |
+| 📝 Form Design | User-friendly onboarding request form |
+| 🔐 Security | Admin and User roles with controlled access |
+| ⚙️ Workflow Automation | Flow Designer trigger on record creation |
+| ✔️ Tested | End-to-end flow execution validated successfully |
+
+---
+
+## 🏛️ Application Architecture
+
+```
 User
  │
  ▼
@@ -95,68 +79,55 @@ Employee Request Table
  │
  ▼
 Flow Designer Trigger
-(Record Created)
+(On: Record Created)
  │
  ▼
 Update Record Action
-(Status → Approved)
+(Status: Requested → Approved)
  │
  ▼
-Updated Request Record
+Updated Request Record ✅
 ```
 
-Architecture diagram is available in:
-
-Assets/Architecture_Diagram.png
+> 📁 Architecture diagram available at: `Assets/Architecture_Diagram.png`
 
 ---
 
-## Technologies Used
+## 🔄 Project Workflow
 
-* ServiceNow App Engine Studio
-* Flow Designer
-* ServiceNow Data Tables
-* Forms
-* Role-Based Access Control
-* Workflow Automation
-
----
-
-## Project Workflow
-
-1. User submits onboarding request.
-2. Request is stored in Employee Request table.
-3. Flow Designer detects new record creation.
-4. Automated workflow executes.
-5. Request status changes from Requested to Approved.
-6. Updated record is stored in the platform.
+1. **Submit** — User fills and submits the onboarding request form
+2. **Store** — Request is saved in the Employee Request table
+3. **Detect** — Flow Designer detects the new record creation
+4. **Execute** — Automated workflow runs without manual input
+5. **Update** — Request status changes from `Requested` → `Approved`
+6. **Persist** — Updated record is stored on the platform
 
 ---
 
-## Screenshots
+## 🛠️ Technologies Used
 
-The Screenshots folder contains:
-
-* Application Home
-* Table Configuration
-* Form Design
-* Flow Designer
-* Successful Flow Execution
-* Test Records
+- ServiceNow App Engine Studio
+- Flow Designer
+- ServiceNow Data Tables & Forms
+- Role-Based Access Control (RBAC)
+- Workflow Automation (No-Code)
 
 ---
 
-## Internship to Project Journey
+## 📸 Screenshots
 
-This project was developed after completing the ServiceNow Virtual Internship Program and serves as a practical implementation of the concepts learned during the internship.
+The `Screenshots/` folder includes:
 
-The project demonstrates the application of ServiceNow administration, application development, security configuration, and workflow automation concepts within a real-world business use case.
+- Application Home
+- Table Configuration
+- Form Design
+- Flow Designer Setup
+- Successful Flow Execution
+- Sample Test Records
 
 ---
 
-## Author
+## 👤 Author
 
-Shaik Afrin
-
+**Shaik Afrin**
 Student | ServiceNow Learner | Aspiring Software Engineer
-
